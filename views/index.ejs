@@ -9,6 +9,14 @@
 
     <%- include('partials/header.ejs') %> 
 
+    <section>
+      <% for( let i = 0; i < 3; i++ ) { %>
+        <h1><%= biblio[i].title %> </h1>
+        <h2><%= biblio[i].author %> </h2>
+        <img src="<%= biblio[i].img %>" >
+        <p><%= biblio[i].description %> </p>
+      <% } %>
+    </section>
     
     <%- include('partials/footer.ejs') %> 
   </body>

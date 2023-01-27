@@ -3,12 +3,30 @@
     {
         "title": "Hola mundo",
         "author": "Kike Lopez",
+        "img": "https://bookmanager.com/i/m?b=jpo2KjG8N1UghWjRSCvc_Q",
         "description": "todo sobre hello world"
     },
     {
         "title":"imaginate",
         "author":"R. M.",
+        "img":"https://cdn.shopify.com/s/files/1/0261/7291/5805/products/9781797205151.jpg?v=1635886444",
         "description":"nada dura to' la vida"
+    },
+    {
+        "title": "repitamos",
+        "author": "cocina",
+        "img": "https://booksforkeeps.co.uk/wp-content/uploads/2023/01/bfk-258-cover.jpg",
+        "description": "asi"
+    },
+    {
+        "title": "viad",
+        "author": "carnaval",
+        "description": "celia"
+    },
+    {
+        "title": "morty",
+        "author": "heridas",
+        "description": "tiempo"
     }
 
 ]
