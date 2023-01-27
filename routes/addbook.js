@@ -11,7 +11,7 @@ router.post('/', function(req, res, next) {
     // console.log(req.body)
     // res.send('libro agregado')
 
-    const { title, author, description } = req.body
+    const { title, author,  description, img } = req.body
 
     if ( req.body != null ){
       

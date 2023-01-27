@@ -13,6 +13,7 @@
         <% for( let i = 0; i < lista.length; i++ ) { %>
             <h1><%= lista[i].title %></h1>
             <h2><%= lista[i].author %></h2>
+            <img src="<%= lista[i].img %>" alt="">
             <p><%= lista[i].description %></p>
         <% } %>
     </section>
