@@ -4,19 +4,19 @@
         "title": "Hola mundo",
         "author": "Kike Lopez",
         "img": "https://bookmanager.com/i/m?b=jpo2KjG8N1UghWjRSCvc_Q",
-        "description": "todo sobre hello world"
+        "description": "todo sobre hello world Lorem ipsum, dolor sit amet consectetur adipisicing elit. "
     },
     {
-        "title":"imaginate",
-        "author":"R. M.",
-        "img":"https://cdn.shopify.com/s/files/1/0261/7291/5805/products/9781797205151.jpg?v=1635886444",
-        "description":"nada dura to' la vida"
+        "title":"Imaginate",
+        "author":"Cecilia Gomez",
+        "img":"https://www.kakaobooks.com/wp-content/uploads/2022/10/9788412492644.jpg",
+        "description":"nada dura to' la vida Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus excepturi quidem, reprehenderit odit distinctio voluptatum aliquam laborum. nada dura to' la vida Lorem ipsum, dolor sit amet consectetur adipisicing elit."
     },
     {
-        "title": "repitamos",
-        "author": "cocina",
+        "title": "Crisis",
+        "author": "Ben Belmet",
         "img": "https://booksforkeeps.co.uk/wp-content/uploads/2023/01/bfk-258-cover.jpg",
-        "description": "asi"
+        "description": "asi Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus excepturi quidem, reprehenderit odit distinctio voluptatum aliquam laborum."
     },
     {
         "title": "viad",
