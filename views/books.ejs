@@ -4,21 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/stylesheets/stylebooks.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Books</title>
 </head>
 <body>
     <%- include('partials/header.ejs') %> 
-    <section>
-        <% for( let i = 0; i < lista.length; i++ ) { %>
-            <h1><%= lista[i].title %></h1>
-            <h2><%= lista[i].author %></h2>
-            <img src="<%= lista[i].img %>" alt="">
-            <p><%= lista[i].description %></p>
-        <% } %>
+    <section class="d-flex justify-content-center">
+        <table class="table table-bordered m-5 w-75">
+            <tr>
+                <th></th>
+                <th>Titulo</th>
+                <th>Autor</th>
+                <th>Descripcion</th>
+                <th></th>
+            </tr>
+            <% for( let i = 0; i < lista.length; i++ ) { %>
+            <tr>
+                <td><div id="imgtable"><img src="<%= lista[i].img %>"></div></td>
+                <td id="tdtit"><%= lista[i].title %></td>
+                <td id="tdauth"><%= lista[i].author %></td>
+                <td id="tddescr"><%= lista[i].description %></td>
+                <td id="tdbtn"><div><button class="btn btn-dark">Eliminar</button></div></td>
+            </tr>
+            <% } %>
+        </table>
+       
     </section>
     
-
-    <%- include('partials/footer.ejs') %> 
+    <div id="footer" class="position-fixed bottom-0 left-0 w-100">
+        <%- include('partials/footer.ejs') %> 
+    </div>
+    
 </body>
 </html>
